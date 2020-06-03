@@ -1,0 +1,20 @@
+{
+	"name": "theme-bpdark-new",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "vscode",
+	"license": "MIT",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "BP Dark New",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bpdark-color-theme.json"
+			}
+		]
+	}
+}
